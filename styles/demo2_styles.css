@@ -1,0 +1,169 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* body{
+    border: 1px solid yellow;
+    width: 900px;
+    height: 600px;
+    margin: 0 auto;
+} */
+
+#title{
+    /* border: 1px solid green; */
+    text-align: center;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    background-color: rgb(241, 150, 120);
+    font-size: 25px;
+}
+
+/* NAVIGATION BAR */
+
+#navbar {
+    /* border: 1px solid blue; */
+    /* margin: 10px; */
+    overflow: hidden;
+}
+
+#navbar ul li {
+    list-style-type: none;
+    /* border: 1px solid brown; */
+    /* width: 180px; */
+    width: 20%;
+    text-align: center;
+    float: left;
+    background-color:rgb(240, 174, 154);
+    /* padding-top: 5px;
+    padding-bottom: 5px; */
+    /* padding: 5px 0; */
+}
+
+#navbar ul li a{
+    text-decoration: none;
+    /* border: 1px solid red; */
+    display: block;
+    color:rgb(128, 128, 128);
+    padding: 10px 0;
+    font-size: 22px;
+}
+
+#navbar ul li a:hover{
+    background-color:white;
+    transition: 0.35s;
+    color: rgb(240, 107, 107);
+}
+
+/* CONTENT OF THE BODY */
+
+#container {
+    /* clear: left; */
+    /* border: 1px solid purple; */
+    overflow: hidden;
+    /* margin: 10px; */
+}
+
+/* PERSONAL INFORMATION */
+
+#container #personalInfo{
+    /* border: 1px solid black; */
+    width: 30%;
+    float: left;
+    /* background-color: blanchedalmond; */
+}
+
+#container #personalInfo h2, .favName{
+    /* border: 1px solid aqua; */
+    text-align: center;
+    padding: 5px 0;
+    font-size: 21px;
+    color:rgb(235, 144, 114);
+    background-color: rgba(0, 0, 0, 0.582);
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+#container #personalInfo table{
+    /* border: 1px solid black; */
+    /* margin: 0 auto; */
+    width: 100%;
+    background-color: rgb(245, 234, 230);
+}
+
+th, td{
+    /* border: 1px solid greenyellow; */
+    padding: 5px 5px;
+    font-size: 18px;
+}
+
+/* FAVORITE */
+
+#container #favorite{
+    /* border: 1px solid pink; */
+    width: 70%;
+    float: right;
+    /* background-color: gray; */
+}
+
+/* MUSIC */
+
+#container #favorite #music{
+    /* border: 1px solid pink; */
+    width: 50%;
+    float: left;
+}
+
+/* PLANT */
+#container #favorite #plant{
+    /* border: 1px solid greenyellow; */
+    width: 50%;
+    float: right;
+}
+
+img{
+    width: 150px;
+    height:100px;
+}
+
+/* .artist {
+    border: 1px solid greenyellow;
+} */
+
+.artist h3 {
+    font-size: 17px;
+    /* border: 1px solid greenyellow; */
+}
+
+.artist h3 a, .artist .songs a{
+    /* border: 1px solid greenyellow; */
+    color:black;
+    text-decoration:none;
+}
+
+.artist .songs {
+    /* border: 1px solid greenyellow; */
+    width: 65%;
+    float: right;
+}
+
+.artist .songs a{
+    font-style: italic;
+    /* border: 1px solid yellow; */
+    display: block;
+    padding: 2px 0;
+}
+
+#footer{
+    clear:both;
+    /* border: 1px solid yellow; */
+    text-align: center;
+    border-top: 1px dotted pink;
+    margin-top: 5px;
+}
+
+#footer p {
+    font-style: italic;
+    font-size: 18px;
+    padding: 5px 0;
+}
